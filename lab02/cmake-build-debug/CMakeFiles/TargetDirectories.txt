@@ -1,0 +1,3 @@
+D:/Michal/agh/Semestr 4/c++/lab02/cmake-build-debug/CMakeFiles/lab02.dir
+D:/Michal/agh/Semestr 4/c++/lab02/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Michal/agh/Semestr 4/c++/lab02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
