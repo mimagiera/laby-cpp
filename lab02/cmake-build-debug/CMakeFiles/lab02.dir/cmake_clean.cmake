@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab02.dir/main.cpp.obj"
+  "CMakeFiles/lab02.dir/obiekty.cpp.obj"
   "lab02.pdb"
   "lab02.exe"
   "lab02.exe.manifest"

@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\lab02.dir\build.make CMakeFiles/lab02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+obiekty.obj: obiekty.cpp.obj
+
+.PHONY : obiekty.obj
+
+# target to build an object file
+obiekty.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab02.dir\build.make CMakeFiles/lab02.dir/obiekty.cpp.obj
+.PHONY : obiekty.cpp.obj
+
+obiekty.i: obiekty.cpp.i
+
+.PHONY : obiekty.i
+
+# target to preprocess a source file
+obiekty.cpp.i:
+	$(MAKE) -f CMakeFiles\lab02.dir\build.make CMakeFiles/lab02.dir/obiekty.cpp.i
+.PHONY : obiekty.cpp.i
+
+obiekty.s: obiekty.cpp.s
+
+.PHONY : obiekty.s
+
+# target to generate assembly for a file
+obiekty.cpp.s:
+	$(MAKE) -f CMakeFiles\lab02.dir\build.make CMakeFiles/lab02.dir/obiekty.cpp.s
+.PHONY : obiekty.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... obiekty.obj
+	@echo ... obiekty.i
+	@echo ... obiekty.s
 .PHONY : help
 
 

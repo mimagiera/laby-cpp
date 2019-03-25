@@ -83,6 +83,12 @@
 		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab02/main.cpp">
 			<Option target="lab02"/>
 		</Unit>
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab02/obiekty.cpp">
+			<Option target="lab02"/>
+		</Unit>
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab02/obiekty.h">
+			<Option target="lab02"/>
+		</Unit>
 		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
