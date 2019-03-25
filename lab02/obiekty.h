@@ -22,12 +22,9 @@ class Macierz{
 public:
     Macierz(double mxx=0, double mxy=0, double myy=0) : mxx(mxx), mxy(mxy), myy(myy) {}
 
-    Macierz* operator - (Macierz const &macierz)
+    Macierz operator - (Macierz const &macierz)
     {
-        mxx-=macierz.mxx;
-        mxy-=macierz.mxy;
-        myy-=macierz.myy;
-        return this;
+        return {mxx-macierz.mxx,mxy-macierz.mxy,myy-macierz.myy};
     }
     Macierz* operator -= (Macierz const &macierz)
     {
@@ -44,7 +41,7 @@ public:
     bool operator<(Macierz macierz2);
     double wyznacznik();
 
-    explicit operator double(){ return wyznacznik();}
+    operator double(){ return wyznacznik();}
 };
 
 #endif //LAB02_OBIEKTY_H
