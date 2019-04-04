@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
+string
+-
+iostream
+-
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
+Osoba.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.cpp
+PojazdOsobowy.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
+PojazdSilnikowy.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
+Pojazd.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.h
+Pojazd.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
+
+D:/Michal/agh/Semestr 4/c++/lab04_new/main.cpp
+iostream
+-
+Osoba.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
+Rower.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.h
+PojazdSilnikowy.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
+PojazdOsobowy.h
+D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
+
