@@ -17,9 +17,8 @@ namespace lab04 {
         virtual std::string opis() const; /// zwraca napis z wszystkimi atrybutami (np. "wlasciciel: Jan Kowalski 1970, przebieg: 120000")
         virtual float mocKW() const = 0;
 
-        bool zapisz(std::ostream &os) const;
-
-        bool wczytaj(std::istream &is);
+        virtual bool zapisz(std::ostream &os) const;
+        virtual bool wczytaj(std::istream &is);
 
     protected:
         Osoba wlasciciel;

@@ -6,41 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
+D:/Michal/agh/Semestr 4/c++/lab04/Osoba.h
+utility
+-
 string
 -
 iostream
 -
 
-D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
-Osoba.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
-
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.cpp
-PojazdOsobowy.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
-
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
-PojazdSilnikowy.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
-
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
-Pojazd.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
-
-D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.h
-Pojazd.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h
-
-D:/Michal/agh/Semestr 4/c++/lab04_new/main.cpp
-iostream
+D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.cpp
+sstream
 -
+Pojazd.h
+D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
+
+D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
 Osoba.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h
-Rower.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.h
-PojazdSilnikowy.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h
-PojazdOsobowy.h
-D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h
+D:/Michal/agh/Semestr 4/c++/lab04/Osoba.h
 

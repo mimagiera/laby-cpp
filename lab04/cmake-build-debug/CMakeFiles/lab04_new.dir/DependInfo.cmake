@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/Osoba.cpp.obj"
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/Pojazd.cpp.obj"
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj"
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj"
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/Rower.cpp.obj"
-  "D:/Michal/agh/Semestr 4/c++/lab04_new/main.cpp" "D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/CMakeFiles/lab04_new.dir/main.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/Osoba.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/Osoba.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/Pojazd.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/PojazdOsobowy.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/Rower.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/Rower.cpp.obj"
+  "D:/Michal/agh/Semestr 4/c++/lab04/main.cpp" "D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/CMakeFiles/lab04_new.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

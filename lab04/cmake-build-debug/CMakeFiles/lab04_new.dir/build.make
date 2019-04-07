@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Michal\agh\Semestr 4\c++\lab04_new"
+CMAKE_SOURCE_DIR = "D:\Michal\agh\Semestr 4\c++\lab04"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab04_new.dir/depend.make
@@ -58,81 +58,81 @@ include CMakeFiles/lab04_new.dir/flags.make
 
 CMakeFiles/lab04_new.dir/main.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab04_new.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\main.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab04_new.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\main.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\main.cpp"
 
 CMakeFiles/lab04_new.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\main.cpp" > CMakeFiles\lab04_new.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\main.cpp" > CMakeFiles\lab04_new.dir\main.cpp.i
 
 CMakeFiles/lab04_new.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\main.cpp" -o CMakeFiles\lab04_new.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\main.cpp" -o CMakeFiles\lab04_new.dir\main.cpp.s
 
 CMakeFiles/lab04_new.dir/Osoba.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/Osoba.cpp.obj: ../Osoba.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab04_new.dir/Osoba.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Osoba.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\Osoba.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab04_new.dir/Osoba.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Osoba.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\Osoba.cpp"
 
 CMakeFiles/lab04_new.dir/Osoba.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/Osoba.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\Osoba.cpp" > CMakeFiles\lab04_new.dir\Osoba.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\Osoba.cpp" > CMakeFiles\lab04_new.dir\Osoba.cpp.i
 
 CMakeFiles/lab04_new.dir/Osoba.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/Osoba.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\Osoba.cpp" -o CMakeFiles\lab04_new.dir\Osoba.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\Osoba.cpp" -o CMakeFiles\lab04_new.dir\Osoba.cpp.s
 
 CMakeFiles/lab04_new.dir/Pojazd.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/Pojazd.cpp.obj: ../Pojazd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab04_new.dir/Pojazd.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Pojazd.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\Pojazd.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab04_new.dir/Pojazd.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Pojazd.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\Pojazd.cpp"
 
 CMakeFiles/lab04_new.dir/Pojazd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/Pojazd.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\Pojazd.cpp" > CMakeFiles\lab04_new.dir\Pojazd.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\Pojazd.cpp" > CMakeFiles\lab04_new.dir\Pojazd.cpp.i
 
 CMakeFiles/lab04_new.dir/Pojazd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/Pojazd.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\Pojazd.cpp" -o CMakeFiles\lab04_new.dir\Pojazd.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\Pojazd.cpp" -o CMakeFiles\lab04_new.dir\Pojazd.cpp.s
 
 CMakeFiles/lab04_new.dir/Rower.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/Rower.cpp.obj: ../Rower.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab04_new.dir/Rower.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Rower.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\Rower.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab04_new.dir/Rower.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\Rower.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\Rower.cpp"
 
 CMakeFiles/lab04_new.dir/Rower.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/Rower.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\Rower.cpp" > CMakeFiles\lab04_new.dir\Rower.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\Rower.cpp" > CMakeFiles\lab04_new.dir\Rower.cpp.i
 
 CMakeFiles/lab04_new.dir/Rower.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/Rower.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\Rower.cpp" -o CMakeFiles\lab04_new.dir\Rower.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\Rower.cpp" -o CMakeFiles\lab04_new.dir\Rower.cpp.s
 
 CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj: ../PojazdSilnikowy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdSilnikowy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\PojazdSilnikowy.cpp"
 
 CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdSilnikowy.cpp" > CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\PojazdSilnikowy.cpp" > CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.i
 
 CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/PojazdSilnikowy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdSilnikowy.cpp" -o CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\PojazdSilnikowy.cpp" -o CMakeFiles\lab04_new.dir\PojazdSilnikowy.cpp.s
 
 CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj: CMakeFiles/lab04_new.dir/flags.make
 CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj: ../PojazdOsobowy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdOsobowy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.obj -c "D:\Michal\agh\Semestr 4\c++\lab04\PojazdOsobowy.cpp"
 
 CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdOsobowy.cpp" > CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Michal\agh\Semestr 4\c++\lab04\PojazdOsobowy.cpp" > CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.i
 
 CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab04_new.dir/PojazdOsobowy.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04_new\PojazdOsobowy.cpp" -o CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Michal\agh\Semestr 4\c++\lab04\PojazdOsobowy.cpp" -o CMakeFiles\lab04_new.dir\PojazdOsobowy.cpp.s
 
 # Object files for target lab04_new
 lab04_new_OBJECTS = \
@@ -156,7 +156,7 @@ lab04_new.exe: CMakeFiles/lab04_new.dir/build.make
 lab04_new.exe: CMakeFiles/lab04_new.dir/linklibs.rsp
 lab04_new.exe: CMakeFiles/lab04_new.dir/objects1.rsp
 lab04_new.exe: CMakeFiles/lab04_new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab04_new.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab04_new.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab04_new.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/lab04_new.dir/clean:
 .PHONY : CMakeFiles/lab04_new.dir/clean
 
 CMakeFiles/lab04_new.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Michal\agh\Semestr 4\c++\lab04_new" "D:\Michal\agh\Semestr 4\c++\lab04_new" "D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug" "D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug" "D:\Michal\agh\Semestr 4\c++\lab04_new\cmake-build-debug\CMakeFiles\lab04_new.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Michal\agh\Semestr 4\c++\lab04" "D:\Michal\agh\Semestr 4\c++\lab04" "D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug" "D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug" "D:\Michal\agh\Semestr 4\c++\lab04\cmake-build-debug\CMakeFiles\lab04_new.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/lab04_new.dir/depend
 

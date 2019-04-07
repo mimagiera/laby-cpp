@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug"/>
+				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab04_new">
-				<Option output="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/lab04_new.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug"/>
+				<Option output="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/lab04_new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab04_new"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab04_new"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab04_new/fast">
-				<Option output="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/lab04_new.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug"/>
+				<Option output="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/lab04_new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,67 +53,67 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab04_new/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab04_new/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug"/>
+				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug"/>
+				<Option working_dir="D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04_new/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Michal/agh/Semestr 4/c++/lab04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Osoba.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Osoba.h">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Osoba.h">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Pojazd.h">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/PojazdOsobowy.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdOsobowy.h">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/PojazdOsobowy.h">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/PojazdSilnikowy.h">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.h">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Rower.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/Rower.h">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/Rower.h">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/main.cpp">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/main.cpp">
 			<Option target="lab04_new"/>
 		</Unit>
-		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04_new/CMakeLists.txt">
+		<Unit filename="D:/Michal/agh/Semestr 4/c++/lab04/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
