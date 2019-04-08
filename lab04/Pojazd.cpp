@@ -21,8 +21,21 @@ namespace lab04 {
         unsigned int length_of_word;
         unsigned int total_length=0;
         std::string stream;
-        //std::cin.clear();
-        getline(is, stream);
+        std::cin.clear();
+        //getline(is, stream);
+        char c;
+        int number_of_max_tabs=4;
+        int number_of_tabs=0;
+        while(is.get(c))
+        {
+            if(c=='\t')
+            {
+                number_of_tabs++;
+                if(number_of_max_tabs==number_of_tabs) break;
+            }
+            stream+=c;
+        }
+
         std::string stream_copy = stream;
 
         length_of_word=stream.find('\t');

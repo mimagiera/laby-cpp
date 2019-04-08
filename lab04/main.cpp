@@ -7,27 +7,32 @@
 
 using namespace lab04;
 int main() {
-    Osoba osoba("Janeczek","Kowalski",20);
-    Osoba osoba2("Jan","Nowiutki",45);
-    //std::cout<<osoba<<std::endl;
-    Rower rower(osoba,12,true);
-    Rower rower2(osoba2,156,true);
-    /*std::cout<<rower.opis()<<std::endl;
-    PojazdSilnikowy pojazdSilnikowy(osoba,2,2.4f,1);
-    std::cout<<pojazdSilnikowy.opis()<<std::endl;
-    PojazdOsobowy pojazdOsobowy(osoba,12,1.4f,200,"BMW");
-    std::cout<<pojazdOsobowy.opis()<<std::endl;*/
-    /*std::stringstream s;
-    osoba.zapisz(s);
-    std::cout<<osoba2<<std::endl;
-    osoba2.wczytaj(s);
-    std::cout<<osoba2<<std::endl;
-    std::stoi("12");*/
-    std::stringstream s2;
-    rower.zapisz(s2);
-    std::cout<<rower2.opis()<<std::endl;
-    rower2.wczytaj(s2);
-    std::cout<<rower2.opis()<<std::endl;
+    Osoba *osoba = new Osoba("Janeczek","Kowalski",20);
+    Osoba *osoba2 = new Osoba("Jan","Nowiutki",45);
+    Pojazd *tablica[6];
+    tablica[0] = new Rower(*osoba,12,true);
+    tablica[1] = new Rower(*osoba2,156, false);
+    tablica[2] = new PojazdSilnikowy (*osoba,123,1.6f,100);
+    tablica[3] = new PojazdSilnikowy(*osoba2,20000,1.8f,200);
+    tablica[4] = new PojazdOsobowy(*osoba,123,1.6f,100,"BMW");
+    tablica[5] = new PojazdOsobowy(*osoba2,2000,1.8f,1000,"MERCEDES");
 
+    std::stringstream s1;
+    std::cout<<tablica[1]->opis()<<std::endl;
+    tablica[0]->zapisz(s1);
+    tablica[1]->wczytaj(s1);
+    std::cout<<tablica[1]->opis()<<std::endl<<std::endl;
+
+    std::stringstream s2;
+    std::cout<<tablica[3]->opis()<<std::endl;
+    tablica[2]->zapisz(s2);
+    tablica[3]->wczytaj(s2);
+    std::cout<<tablica[3]->opis()<<std::endl<<std::endl;
+
+    std::stringstream s3;
+    std::cout<<tablica[5]->opis()<<std::endl;
+    tablica[4]->zapisz(s3);
+    tablica[5]->wczytaj(s3);
+    std::cout<<tablica[5]->opis()<<std::endl;
     return 0;
 }

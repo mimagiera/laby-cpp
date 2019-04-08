@@ -10,7 +10,8 @@ namespace lab04 {
     public:
         PojazdOsobowy(const Osoba &_wlasciciel, int _przebieg, float pojemnosc, int moc_km, const std::string &marka);
         std::string opis() const override;
-
+        bool zapisz(std::ostream &os) const override;
+        bool wczytaj(std::istream &is) override;
     protected:
         std::string marka;
     };

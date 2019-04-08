@@ -13,6 +13,8 @@ namespace lab04 {
         Rower(const Osoba &_wlasciciel, int _przebieg, bool amatorski);
         std::string opis() const override;
         float mocKW() const override;
+        bool zapisz(std::ostream &os) const override;
+        bool wczytaj(std::istream &is) override;
 
     protected:
         bool amatorski;

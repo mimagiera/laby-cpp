@@ -17,7 +17,8 @@ namespace lab04 {
 
     bool Osoba::wczytaj(std::istream &is) {
         std::string stream;
-        //std::cin.clear();
+        std::cin.clear();
+        char c;
         getline(is, stream);
 
         std::string imie_;
@@ -37,8 +38,7 @@ namespace lab04 {
         nazwisko_ = stream.substr(start_index,end_index);
         stream=stream.substr(end_index+1);
 
-        rok_ = stream.substr(start_index);
-
+        rok_ = stream;
 
         imie =imie_;
         nazwisko =nazwisko_;

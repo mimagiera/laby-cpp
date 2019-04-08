@@ -15,4 +15,21 @@ namespace lab04 {
         std::string czyAmatorski = amatorski?"amatorski":"Nie amatorski";
         return "Typ: Rower, "+Pojazd::opis()+", Rodzaj: "+czyAmatorski;
     }
+
+    bool Rower::zapisz(std::ostream &os) const {
+        if(!Pojazd::zapisz(os)) return false;
+        os<<"\t"<<amatorski;
+        return os? true: false;
+    }
+
+    bool Rower::wczytaj(std::istream &is) {
+        if(!Pojazd::wczytaj(is)) return false;
+        std::string stream;
+        std::cin.clear();
+        getline(is, stream);
+        if(stream=="1") amatorski= true;
+        else if(stream=="0") amatorski = false;
+        else return false;
+        return true;
+    }
 }
