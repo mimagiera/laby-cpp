@@ -12,7 +12,7 @@ namespace lab04 {
     }
 
     std::string Rower::opis() const {
-        std::string czyAmatorski = amatorski?"amatorski":"Nie amatorski";
+        std::string czyAmatorski = amatorski?"amatorski":"nie amatorski";
         return "Typ: Rower, "+Pojazd::opis()+", Rodzaj: "+czyAmatorski;
     }
 

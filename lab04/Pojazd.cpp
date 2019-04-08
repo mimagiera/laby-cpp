@@ -13,7 +13,8 @@ namespace lab04 {
     }
 
     bool Pojazd::zapisz(std::ostream &os) const {
-        os<<wlasciciel<<"\t"<<przebieg;
+        if(!wlasciciel.zapisz(os)) return false;
+        os<<"\t"<<przebieg;
         return os? true: false;
     }
 
@@ -22,7 +23,6 @@ namespace lab04 {
         unsigned int total_length=0;
         std::string stream;
         std::cin.clear();
-        //getline(is, stream);
         char c;
         int number_of_max_tabs=4;
         int number_of_tabs=0;

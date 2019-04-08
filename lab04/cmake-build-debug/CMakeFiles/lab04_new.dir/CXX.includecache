@@ -15,32 +15,16 @@ iostream
 -
 
 D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
-Osoba.h
-D:/Michal/agh/Semestr 4/c++/lab04/Osoba.h
-
-D:/Michal/agh/Semestr 4/c++/lab04/PojazdOsobowy.h
-PojazdSilnikowy.h
-D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.h
-
-D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.h
-Pojazd.h
-D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
-
-D:/Michal/agh/Semestr 4/c++/lab04/Rower.h
-Pojazd.h
-D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
-
-D:/Michal/agh/Semestr 4/c++/lab04/main.cpp
-iostream
--
-sstream
+utility
 -
 Osoba.h
 D:/Michal/agh/Semestr 4/c++/lab04/Osoba.h
+
+D:/Michal/agh/Semestr 4/c++/lab04/Rower.cpp
 Rower.h
 D:/Michal/agh/Semestr 4/c++/lab04/Rower.h
-PojazdSilnikowy.h
-D:/Michal/agh/Semestr 4/c++/lab04/PojazdSilnikowy.h
-PojazdOsobowy.h
-D:/Michal/agh/Semestr 4/c++/lab04/PojazdOsobowy.h
+
+D:/Michal/agh/Semestr 4/c++/lab04/Rower.h
+Pojazd.h
+D:/Michal/agh/Semestr 4/c++/lab04/Pojazd.h
 

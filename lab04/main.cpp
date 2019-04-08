@@ -7,8 +7,8 @@
 
 using namespace lab04;
 int main() {
-    Osoba *osoba = new Osoba("Janeczek","Kowalski",20);
-    Osoba *osoba2 = new Osoba("Jan","Nowiutki",45);
+    Osoba *osoba = new Osoba("Janeczek","Kowalski",2000);
+    Osoba *osoba2 = new Osoba("Jan","Nowiutki",1980);
     Pojazd *tablica[6];
     tablica[0] = new Rower(*osoba,12,true);
     tablica[1] = new Rower(*osoba2,156, false);
@@ -23,16 +23,16 @@ int main() {
     tablica[1]->wczytaj(s1);
     std::cout<<tablica[1]->opis()<<std::endl<<std::endl;
 
-    std::stringstream s2;
+    s1=std::stringstream();
     std::cout<<tablica[3]->opis()<<std::endl;
-    tablica[2]->zapisz(s2);
-    tablica[3]->wczytaj(s2);
+    tablica[2]->zapisz(s1);
+    tablica[3]->wczytaj(s1);
     std::cout<<tablica[3]->opis()<<std::endl<<std::endl;
 
-    std::stringstream s3;
+    s1=std::stringstream();
     std::cout<<tablica[5]->opis()<<std::endl;
-    tablica[4]->zapisz(s3);
-    tablica[5]->wczytaj(s3);
+    tablica[4]->zapisz(s1);
+    tablica[5]->wczytaj(s1);
     std::cout<<tablica[5]->opis()<<std::endl;
     return 0;
 }

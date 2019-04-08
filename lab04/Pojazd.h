@@ -1,3 +1,5 @@
+#include <utility>
+
 //
 // Created by micha on 04.04.2019.
 //
@@ -10,7 +12,7 @@
 namespace lab04 {
     class Pojazd {
     public:
-        Pojazd(const Osoba &_wlasciciel, int _przebieg) : wlasciciel(_wlasciciel), przebieg(_przebieg) {}
+        Pojazd(Osoba _wlasciciel, int _przebieg) : wlasciciel(std::move(_wlasciciel)), przebieg(_przebieg) {}
 
         virtual ~Pojazd() { delete (&wlasciciel); }
 

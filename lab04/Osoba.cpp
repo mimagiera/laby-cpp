@@ -18,7 +18,6 @@ namespace lab04 {
     bool Osoba::wczytaj(std::istream &is) {
         std::string stream;
         std::cin.clear();
-        char c;
         getline(is, stream);
 
         std::string imie_;
