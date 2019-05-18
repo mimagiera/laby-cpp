@@ -3,22 +3,23 @@
 //
 
 #include <sstream>
-#include "Pojazd.h"
+#include "Produkt.h"
 namespace lab04 {
-    std::string Pojazd::opis() const {
+    std::string Produkt::opis() const {
         std::stringstream buffer;
-        buffer << wlasciciel;
-        std::string opis = "Wlasciciel: " + buffer.str() + ", Przebieg: " + std::to_string(przebieg)+", Moc: "+std::to_string(mocKW())+" kW";
+        buffer << wyprodukowano;
+        std::string opis = "Data produkcji: " + buffer.str() + ", Nazwa: " + nazwa+", Koszt: "+std::to_string(
+                koszt());
         return opis;
     }
 
-    bool Pojazd::zapisz(std::ostream &os) const {
-        if(!wlasciciel.zapisz(os)) return false;
-        os<<"\t"<<przebieg;
+    bool Produkt::zapisz(std::ostream &os) const {
+        if(!wyprodukowano.zapisz(os)) return false;
+        os<<"\t"<<nazwa;
         return os? true: false;
     }
 
-    bool Pojazd::wczytaj(std::istream &is) {
+    bool Produkt::wczytaj(std::istream &is) {
         unsigned int length_of_word;
         unsigned int total_length=0;
         std::string stream;
@@ -55,16 +56,16 @@ namespace lab04 {
         total_length+=(length_of_word);
         stream=stream.substr(length_of_word+1);
 
-        std::string osoba = stream_copy.substr(0,total_length);
+        std::string data_produkcji = stream_copy.substr(0,total_length);
 
         std::stringstream s;
 
-        s<<osoba;
+        s<<data_produkcji;
 
-        wlasciciel.wczytaj(s);
+        wyprodukowano.wczytaj(s);
 
         try {
-            przebieg = std::stoi(stream);
+            nazwa = stream;
         }
         catch(std::invalid_argument &argument){
             return false;

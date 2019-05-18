@@ -1,21 +1,22 @@
 #include <iostream>
 #include <sstream>
-#include "Osoba.h"
-#include "Rower.h"
-#include "PojazdSilnikowy.h"
-#include "PojazdOsobowy.h"
+#include "Data.h"
+#include "Usluga.h"
+#include "Towar.h"
+#include "TowarZKaucja.h"
 
 using namespace lab04;
 int main() {
-    Osoba *osoba = new Osoba("Janeczek","Kowalski",2000);
-    Osoba *osoba2 = new Osoba("Jan","Nowiutki",1980);
-    Pojazd *tablica[6];
-    tablica[0] = new Rower(*osoba,12,true);
-    tablica[1] = new Rower(*osoba2,156, false);
-    tablica[2] = new PojazdSilnikowy (*osoba,123,1.6f,100);
-    tablica[3] = new PojazdSilnikowy(*osoba2,20000,1.8f,200);
-    tablica[4] = new PojazdOsobowy(*osoba,123,1.6f,100,"BMW");
-    tablica[5] = new PojazdOsobowy(*osoba2,2000,1.8f,1000,"MERCEDES");
+    Data *data = new Data(12,03,2018);
+    Data *data2 = new Data(2,3,1403);
+    Produkt *tablica[6];
+    tablica[0] = new Usluga(*data,"cos",12,5);
+    tablica[1] = new Usluga(*data2,"inne", 16,4);
+    tablica[2] = new Towar (*data,"KOT",123,100,*data2);
+    tablica[3] = new Towar(*data2,"LEW",180,200,*data);
+
+    tablica[4] = new TowarZKaucja(*data,"SLON",123,1.6f,*data2,12);
+    tablica[5] = new TowarZKaucja(*data2,"KONIK",1.8f,1000,*data2,100);
 
     std::stringstream s1;
     std::cout<<tablica[1]->opis()<<std::endl;
@@ -34,5 +35,9 @@ int main() {
     tablica[4]->zapisz(s1);
     tablica[5]->wczytaj(s1);
     std::cout<<tablica[5]->opis()<<std::endl;
+    for(int i=0;i<6;i++)
+    {
+        delete tablica[i];
+    }
     return 0;
 }
